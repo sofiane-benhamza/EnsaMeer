@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <title>EnsaMeer : juste pour vous</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styleS.css">
+    <meta charset="UTF-8">
+    <meta name="Author" content="BENHAMZA Sofiane">
+    <meta name="Copyrights" content="BENHAMZA Sofiane">
+    <meta name="Description" content="Pour les ensaistes">
+    <meta name="Keywords" content="ENSAS , Ensa TDS, ensaistes ,CoursENSAS ,ENSASAFI , Algebre ensa , Algebre ensa cours , analyse ensas,Cours ensas , Cours ensaistes, Courses ensa pdf  "> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body id="body" onload="dateyy();fi();" >
+     <article class="peagy"><div class="peagy1" style="background-color:blue ;animation: pil1 2s infinite;"></div><div class="peagy1" style="background-color: rgb(30,30,30);animation: pil2 2s infinite;animation-delay:.4s"></div><div class="peagy1" style="background-color: orange;animation: pil3 2s infinite;animation-delay:.8s;"></div></article>
+ <section id="cntTopTime" ><span id="topTime">...</span></section>
+   <section id="sectiony87">
+    <a href="index.html">
+    <img src="img\logo.png" alt="A Golden logo" style="height: 19vh;margin: .5vh;float: left;min-height: 100px;"></a>
+     </section >
+      <div id="oleyAa">
+                  <a href="index.html"><p class="pellow" style="margin-left:4vw; "><i class="bi bi-house-door"></i></i><br> Accueil</p></a>
+                  <a href="cours.html"><p class="pellow" style="color: #ff9c00;"><i class="bi bi-blockquote-right"></i><br> Cours</p></a>
+                  <a href="vide.html"><p class="pellow" ><i class="bi bi-pencil"></i><br> Travaux dirigés</p></a>
+                  <a href="about.html"><p class="pellow" ><i class="bi bi-send"></i><br> A propos</p></a>
+                  <a href="#peaxySQL"><p class="pellow" ><i class="bi bi-envelope"></i><br> Contactez-nous</p></a>
+       </div>
+      <button id="powxx" onclick="fun2hide();" style="position: absolute;right:1vw;top:1vh;height: 10vh;width:15vw;border-radius: 10px;background:rgba(0,0,0,.7);border-color: white;z-index: 1;margin-top: 5vh;"><span style="color: white;font-size: 2em;">≡</span></button>
+      <section id="pow" style="transition: left 1s;position: absolute;left: -85vw;">
+        <a href="index.html"><p class="p_phone"><strong><i class="bi bi-house-door"></i> Accueil</strong></p></a>
+        <a href="cours.html"><p class="p_phone" style="color: aqua;border-color: aqua;"><strong><i class="bi bi-blockquote-right"></i> Cours</strong></p></a>
+        <a href="vide.html"><p class="p_phone" ><strong><i class="bi bi-pencil"></i> Travaux dirigés</strong></p></a>
+        <a href="about.html"><p class="p_phone"><strong><i class="bi bi-send"></i> A propos</strong></p></a>
+        <a href="apps_phone.html"><p class="p_phone"><strong><i class="bi bi-send"></i> note décision</strong></p></a>
+        <a href="#peaxySQL"><p class="p_phone"><strong><i class="bi bi-envelope"></i> Contactez&nbsp;-&nbsp;nous</strong></p></a>
+      </section>
+      <br>
+<!----------------------------------------------MAIN------------------------------------------>
+  <main id="z_2">
+                                      <div id="heidi11">
+      <p style="margin:0;width: 16vw;background-color: rgba(0,0,0,.8);border-top-left-radius: 10px;border-top-right-radius: 10px;color:white;font-family: 'Caveat', cursive;">Try our <br>note calculator :)</p><br>
+       <i>Note M1 :</i> <input type="number" step="0.01" placeholder="0" class="mdl1"><br> 
+       <i>Note M2 :</i> <input type="number" step="0.01" placeholder="0" class="mdl1"><br> 
+       <i>Note M3 :</i> <input type="number" step="0.01" placeholder="0" class="mdl1"><br> 
+       <i>Note M4 :</i> <input type="number" step="0.01" placeholder="0" class="mdl1"><br> 
+       <i>Note M5 :</i> <input type="number" step="0.01" placeholder="0" class="mdl1"><br> 
+       <i>Note M6 :</i> <input type="number" step="0.01" placeholder="0" class="mdl1"><br> 
+       <i>CP  </i><input type="radio" name="CycleS" value="P" class="mdl2C" checked>
+       <i>CI  </i><input type="radio" name="CycleS" value="I" class="mdl2C"><br>
+       <button onclick="calculateNote()" style="margin:20px 0 0;">calculez</button>
+       <p id ="outty1" style="background-color: rgba(0,0,0,.8);border-radius: 6px;padding: 5px 30px;margin: 20px 10px;font-size: 18px;color: white;">Note</p>
+       <p id ="outty2" style="background-color: rgba(0,0,0,.8);border-radius: 6px;padding: 5px 30px;margin: 20px 10px;font-size: 18px;color: white;">Décision</p>
+                                      </div>
+                                      <div id="heidi12">
+      <p style="margin:0;width: 16vw;background-color: rgba(0,0,0,.8);border-top-left-radius: 10px;border-top-right-radius: 10px;color:white;font-family: 'Caveat', cursive;">Lovely books & <br>novels for you :)</p>
+       <input type="text" id="in" placeholder="Recherchez...🔍" onfocusin="my=setInterval(lookfor,500)" onfocusout="clearInterval(my)">
+                <article style="overflow-y: scroll;height: 70vh;">
+                  <a href="https://drive.google.com/uc?export=download&id=1xpOnQ5a5_R2QTuiMfqozyyML_IuNcA6V" target="_blank"><div class="lookyR" style="background-image: url('img/b_1984.jpg');           "><p style="bottom: 10vh;position: relative;">1984 George orweill</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_jarthen.jpg');        "><p style="bottom: 10vh;position: relative;">jartin قواعد جارثن</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_loverules.jpg');      "><p style="bottom: 10vh;position: relative;">قواعد العشق الأربعون</p></div> </a>
+                  <a href="https://drive.google.com/file/d/1OffZ0QMq-isCNAP--c7kTnkrr1FayGDK/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_derjcon.jpg');        "><p style="bottom: 10vh;position: relative;">le dernier jour d'un condamné</p></div></a>
+                  <a href="https://drive.google.com/file/d/19ugRyx65grN5-5kz_8dLTUhJX9KbRnZV/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_earthofsophists.jpg');"><p style="bottom: 10vh;position: relative;">أرض السافلين</p></div></a>
+                  <a href="https://drive.google.com/file/d/1n1C4D_TxlTL9U2e7XbuPLssYscdq5kMx/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_antikh.jpg');         "><p style="bottom: 10vh;position: relative;">انتيخريستوس antichrist</p></div> </a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_secpain.jpg');        "><p style="bottom: 10vh;position: relative;"> الخبز الحافي </p></div></a>
+                   <a href="https://drive.google.com/uc?export=download&id=1f4rc4iTQeNQ95WURHKNU9-3fU0B-kK8Z" target="_blank"><div class="lookyR" style="background-image: url('img/b_pistache.jpg');"><p style="bottom: 10vh;position: relative;">نظرية الفستق</p></div></a>
+                  <a href="https://drive.google.com/file/d/1Km9vOuiQbiyacFBFPTAKhpyyHy8v6SMe/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_butcher.jpg');        "><p style="bottom: 10vh;position: relative;"> الجزار  butcher</p></div></a>
+                  <a href="https://drive.google.com/file/d/19mF2BIVdUX3lIE5SUDEX92J1XFoeUgjA/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_whaleb.jpg');         "><p style="bottom: 10vh;position: relative;">الحوت whale</p></div> </a>
+                  <a href="https://drive.google.com/file/d/1NWFJu3AJ59SeyB8NJpC52zYE2Jv1PcDh/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_zikola.jpg');         "><p style="bottom: 10vh;position: relative;">أرض زيكولا zikola </p></div> </a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_amarita.jpg');        "><p style="bottom: 10vh;position: relative;">امارينا amarita</p></div> </a> 
+                  <a href="https://drive.google.com/file/d/1mU8g15cEP6u2gTX_rHlWaLMmIj3bqupx/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_restofoodhum.jpg');   "><p style="bottom: 10vh;position: relative;">مطعم اللحوم البشرية</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_dogofdeath.jpg');     "><p style="bottom: 10vh;position: relative;">كلب الموت</p></div></a> <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_dontu.jpg');"><p style="bottom: 10vh;position: relative;">لا تحزن</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_chimik.jpg');         "><p style="bottom: 10vh;position: relative;">الخيميائي chimie</p></div></a>
+                  <a href="https://drive.google.com/uc?export=download&id=1QZH0QR0s9LTu-m7p9EFqsNd-m_yqx-AN" target="_blank"><div class="lookyR" style="background-image: url('img/b_ikadoli.jpg');"><p style="bottom: 10vh;position: relative;">ايكادولي</p></div></a>
+                  <a href="https://drive.google.com/file/d/11HiDbh6sK_gW9rFVlBFYl8yIWTrJTMsF/view?usp=sharing" target="_blank"><div class="lookyR" style="background-image: url('img/b_babelrich.jpg');      "><p style="bottom: 10vh;position: relative;">أغنى رجل في بابل</p></div>   </a>
+                  <a href="https://drive.google.com/uc?export=download&id=1IzBhULn38pLtT7dINn0z5029lt0nHGpN" target="_blank"><div class="lookyR" style="background-image: url('img/b_eksta.jpg');          "><p style="bottom: 10vh;position: relative;">اكستاسي</p></div></a>
+                  <a href="https://drive.google.com/uc?export=download&id=19JwgW6OsBxPSxRmFlCtvy5Zo_J8sBYLh" target="_blank"><div class="lookyR" style="background-image: url('img/b_hersisters.jpg');"><p style="bottom: 10vh;position: relative;">أنا و أخواتها</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_jarthen2.jpg');       "><p style="bottom: 10vh;position: relative;">jartin قواعد جارثن</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_jarthen3.jpg');       "><p style="bottom: 10vh;position: relative;">jartin قواعد جارثن</p></div></a>
+                  <a href="" target="_blank"><div class="lookyR" style="background-image: url('img/b_uncare.jpg');         "><p style="bottom: 10vh;position: relative;">فن المبالاة uncare art</p></div></a>
+                </article>
+                <p>Hello</p>
+                                      </div>
+                                      <div id="heidi13">
+      <p style="margin:0;width: 16vw;background-color: rgba(0,0,0,.8);border-top-left-radius: 10px;border-top-right-radius: 10px;color:white;font-family: 'Caveat', cursive;">coming soon ! <br>:)</p><br>
+      
+                                      </div>
+                                      <div  class="boggy_X">
+            <div class="d_Maj2 _Macro_d1">
+                               <div style="background-image: url('img/div2H.jpg');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div>
+             </div>
+             <div class="d_Maj _Macro_d2"><a href="https://sites.google.com/a/uca.ma/r-chahin/cours" target="_blank">
+                               <div class="conte" style="background-image: url('img/pro2div.jpg');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div><p class="pHomehovery">Le siteweb de<br> Dr.Chahin</p></a>
+             </div>
+             <div class="d_Maj _Macro_d3"><a href="https://www.bibmath.net/" target="_blank">
+                               <div class="conte" style="background-image: url('img/exemat2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA"> Exercices<br> de math</p></a>
+             </div>
+             <div class="d_Maj _Macro_d4"><a href="https://www.youtube.com/c/MathsavecAmmar" target="_blank">
+                               <div class="conte" style="background-image: url('img/ammar.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA" >La chaîne youtube<br> de Dr. Ammar</p></a>
+             </p></div>
+             <div class="d_Maj _Macro_d5">
+                                <div class="conte" style="background-image: url('img/ensa2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">Islam<br>Web ♡</p>
+             </div>
+             <div class="d_Maj _Macro_d6">
+                                <a href="https://learndigital.withgoogle.com/digitalgarage/courses" target="_blank">
+                                <div class="conte" style="background-image: url('img/goog2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">GOOGLE<br>Free Courses</p></a>
+             </div>
+             <div class="d_Maj _Macro_d7" ><a href="https://www.youtube.com/channel/UCHxsdX2reQRZd1dAE5ht4Ag" target="_blank">
+                               <div class="conte" style="background-image: url('img/HmechSo.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery">La chaîne youtube<br> de Dr.EL-ABIDI</p></a>
+             </div>
+             <div class="d_Maj _Macro_d8"><a href="https://www.youtube.com/c/Freecodecamp" target="_blank">
+                                <div class="conte" style="background-image: url('img/freecode2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">freecode<br>camp</p></a>
+             </div>
+             <div class="d_Maj _Macro_d12">
+                               <a href="https://www.islamweb.net/en/fatwa/84100/wasting-too-much-time" target="_blank"><div class="conte" style="background-image: url('img/nat2div.jpg');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div><p  class="pHomehovery">How to stop<br>losing time ?</p></a>
+             </div> 
+             <div class="d_Maj2 _Macro_d9" >L'École Nationale des Sciences Appliquées de Safi, est une école d'ingénieurs publique située à Safi, elle fait partie du réseau des Écoles nationales des sciences appliquées réparties sur l’ensemble du territoire national au niveau des grandes villes universitaires du pays</div> 
+             <div class="d_Maj _Macro_d10"><a href="https://sites.google.com/ucam.ac.ma/bendaoud-saad/cours?authuser=0" target="_blank">
+               <div class="conte" style="background-image: url('img/emg2div.jpg');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div><p  class="pHomehovery">Le siteweb de Dr.Bendaouad</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d11">  
+                             <a href="https://see.stanford.edu/" target="_blank">
+                    <div class="conte" style="background-image: url('img/SEE2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">Stanford<br>Free courses</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d13"><a href="https://www.youtube.com/c/KhanAcademyFrancais" target="_blank">
+                    <div class="conte" style="background-image: url('img/khan2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">KhanAcademy<br>Francophone</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d14"><a href="https://sleepyti.me/" target="_blank">
+                   <div class="conte" style="background-image: url('img/sleep2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">Need some<br>sleep ?</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d15"><a href="https://www.moneysavingexpert.com/" target="_blank">
+                                   <div class="conte" style="background-image: url('img/smoney2div.png');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">your pocket<br> is Pierced ?</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d16"><a href="https://www.ensamaroc.com/" target="_blank">
+                       <div class="conte" style="background-image: url('img/ensa2div.png');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div><p class="pHomehovery">ENSA<br>MAROC</p></a>s
+             </div> 
+             <div class="d_Maj2 _Macro_d17">
+                                  <div style="background-image: url('img/div1H.jpg');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div>
+             </div>
+             <div class="d_Maj _Macro_d18"><a href="https://www.youtube.com/channel/UCQRvonjNZpfrbi9UVdQhrCA" target="_blank">
+                                  <div class="conte" style="background-image: url('img/mdmK2div.png');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">La&nbsp;chaîne&nbsp;youtube<br> de Dr.M.El&nbsp;Aimani</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d19"><a href="https://quitsocialmedia.club/home" target="_blank">
+                       <div class="conte" style="background-image: url('img/nosocio2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p class="pHomehovery">want to quit<br>SocialMedia ?</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d20"><a href="https://www.youtube.com/channel/UCwBarMs_5R8RDhXCSsaPeRw" target="_blank">
+                        <div class="conte" style="background-image: url('img/sql2div.jpeg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">La&nbsp;chaîne&nbsp;youtube<br> de Dr.Echchadi</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d21"><a href="https://www.youtube.com/c/MathsavecAmmar" target="_blank">
+                               <div class="conte" style="background-image: url('img/fatajou2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA" >La&nbsp;chaîne&nbsp;youtube<br>de Dr. Fatajou</p></a></div> 
+             <div class="d_Maj _Macro_d22"><a href="https://www.slidescarnival.com/category/free-templates" target="_blank">
+                                 <div class="conte" style="background-image: url('img/exo2div.png');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div><p class="pHomehovery">Free<br>Templates !<br> </p></a>
+             </div>
+             <div class="d_Maj _Macro_d23">
+                            <a href="https://uraware.org/ar" target="_blank">
+                        <div class="conte" style="background-image: url('img/aware2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">Aware<br>Team</p></a>
+             </div> 
+             <div class="d_Maj _Macro_d24">
+               <a href="https://www.youtube.com/channel/UCahYlNszeMy_PHffYvgAOHg" target="_blank">
+                                <div class="conte" style="background-image: url('img/iyyad2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p class="pHomehovery"> P.Dr. Eyad qunaibi<br> رحلة اليقين </p></a>
+             </div> 
+              <div class="d_Maj _Macro_d18"><a href="https://www.codecademy.com/" target="_blank">
+                                  <div class="conte" style="background-image: url('img/ACcode2div.jpg');background-repeat: no-repeat;background-size: cover;height: 30vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">Learn to code<br><strong>for free!</strong></p></a>
+             </div>
+             <div class="d_Maj _Macro_d25"><a href="https://sites.google.com/view/lailaelaimani" target="_blank">
+                        <div class="conte" style="background-image: url('img/mdm2div.jpg');background-repeat: no-repeat;background-size: cover;height: 60vh; background-position: center;"></div><p  class="pHomehovery fnt_szAA">Le&nbsp;siteweb<br> de Dr.M.El&nbsp;Aimani</p></a>
+             </div> 
+                                            </div> 
+</main><br>
+<!--hr style="background-color: white;height: 3px;margin:30px 0 0;"-->
+  <footer id="footer">
+    <br>
+     <div id="peaxySQL"><h2>Merci de votre visite!</h2> Si vous souhaitez nous faire part de vos suggestions, des options que vous souhaitez ajouter, des fichiers que vous souhaitez mettre à jour, dire merci, poser une question ou toute autre chose pour laquelle vous pensez que nous pouvons vous aider, il vous suffit de
+envoyer un message par e-mail :<br>
+     <code id="J_Query"><a href="mailto:benhamza4sofiane@gmail.com" target="_blank" style="text-decoration: none;">envoyez un message </a></code>  </div>
+     <hr>
+     <div id="speaktous"> <p style="width: 20%;float:left;font-size: 24px;"><a href="#cntTopTime" style="text-decoration: none;color:white;"><i class="bi bi-arrow-up-circle"></i></a></p><p style="width: 80%;float:right;text-align: right;">Website designed by <strong><a href="" target="_blank" style="text-decoration: none;">BENHAMZA&nbsp;Sofiane</a></strong></p></div>
+  </footer>
+</body>
+ <script src="javaS.js"></script>
+</html>
+<style type="text/css">
+
+  
+</style>
